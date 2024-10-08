@@ -8,8 +8,15 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 clear 
 echo -e " \033[35;1m INSTALL MODULE PKG TERMUX"
-sleep  2
-mvp /$HOME/bot/anime.mp3
+pkg install jq -y
+pkg install  mpv -y
+pkg install ruby -y
+sleep  1
+read -s
+clear
+mpv anime.mp3
+sleep 1
+clear
 echo -e  "\033[35;1m╔══════════════════════════════════════════════════╗"
 echo -e "\033[35;1m║ \033[33;1m[01] \033[32;1m.MENU BOT WHATS APP CRASH                   \033[35;1m║"
 echo -e "\033[35;1m║ \033[33;1m[02] \033[32;1m.MENU BOT WHATS APP WIBU                    \033[35;1m║"
